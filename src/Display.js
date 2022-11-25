@@ -3,7 +3,10 @@ import { useDispatch, useSelector } from "react-redux";
 import { buyCake } from "./Action";
 
 export const Display = () => {
+  //useSelector hook is used to used the state
   const state = useSelector((state) => state);
+
+  //useDispatch function is used to dispatch the action
   const dispatch = useDispatch();
 
   return (
